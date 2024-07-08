@@ -1,0 +1,32 @@
+/* RecommendedProducts.css */
+.recommended-products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+    list-style: none;
+}
+.recommend-product{
+    width: 100%;
+    margin: auto;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.recommended-product-item {
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.recommended-product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.recommend h2{
+    color: purple;
+    font-size: max(2vw, 24px);
+    font-weight: 600;
+}
