@@ -26,8 +26,6 @@ const RecommendedProducts = ({ recommendedProducts }) => {
     return (
         <div className='recommend'>
             <h2>Recommended Products just for You</h2>
-            {/* {renderProducts(recommendedProducts.contentBased, "Content Based Recommendations")}
-            {renderProducts(recommendedProducts.collaborative, "Collaborative Recommendations")} */}
             {renderProducts(recommendedProducts.hybrid)}
         </div>
     );
